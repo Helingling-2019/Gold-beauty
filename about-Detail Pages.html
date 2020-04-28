@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>金好美</title>
+<link rel="shortcut icon" type="image/icon" href="images/favicon.ico">
+<link rel="stylesheet" href="style/cy.css" type="text/css">
+<link rel="stylesheet" href="style/style.css" type="text/css">
+<!--所有页面会用到的js-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="m-bag">
+  <div class="m-log"> <a href="#"><img src="images/log.png" alt="金美好" title="金美好" /></a> </div>
+  <div class="m-mai">
+    <div class="m-etc">
+      <div class="m-etc-1">
+        <div class="m-etc-0">
+          <h2>新闻动态</h2>
+          <h5>News information</h5>
+        </div>
+        <ul>
+          <li><a href="#" class="z-etc">行业动态</a></li>
+          <li><a href="#">公司活动</a></li>
+        </ul>
+      </div>
+      <div class="m-etc-2">
+        <div class="m-ded-1">
+          <p><a href="#">首页</a> &gt; <a href="#">新闻动态</a> &gt; <a href="#">行业动态</a> &gt; <span>2017环球风尚•年度盛典在北京璀璨启幕</span></p>
+        </div>
+        <div class="m-dei">
+            <h2 class="m-tit">凝聚每颗心，成就每个人</h2>
+            <h5 class="m-tit">2017-12-05 阅读：23次 来源：本站</h5>
+            <p style="text-indent:2em;">2017年10月11日，金好美大家庭怀揣对未来无限的遐想和憧憬，开启了不一样的"三天两夜"——金好美文化发展有限公司"凝聚每颗心，成就每个人"主题团队拓展。</p>
+            <p style="text-indent:2em;">此次拓展训练为期三天两夜，以磨练意志、挑战自我、熔炼团队为目标。训练中，虽然只是一个个简单的小游戏，但是揭示了深刻的道理，让我们找回了一个团队所应具备的东西：责任、信任、意志、勇气等。<br />
+  这次的拓展活动，是对我们每一个人一次灵魂的洗涤，这是一种脱胎换骨的真真切切的感受，我们为队友感动，也被自己感动，我们为团队骄傲，也为自己骄傲！</p>
+  <p style="text-indent:2em;">金好美——温馨的家庭、优秀的团队、新的生命力、新的希望……相信我们可以创造奇迹！</p>
+  <p>&nbsp;</p>
+            <img src="images/eta_03.jpg" />
+        </div>
+        <div class="m-det-2"> <span>分享我们</span> <a href="#"><img src="images/det_19.jpg" alt="分享到新浪微博" title="分享到新浪微博"></a> <a href="#"><img src="images/det_21.jpg" alt="分享到QQ空间" title="分享到QQ空间"></a> </div>
+        <div class="m-det-3">
+        <p>上一条： <a href="#">吉林日报介绍核武常识，啥情况？</a></p>
+        <p>下一条： <a href="#">十全十美金条</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-bom">
+    <div class="m-bom">
+      <div class="m-bom-1">Copyright©金好美文化发展有限公司 Design by <a href="http://www.web8848.com/" target="_blank" rel="nofollow">南昌网络公司</a><a href="http://www.web8848.com/" target="_blank" rel="nofollow">珠峰科技</a> 赣ICP备16006158号</div>
+      <div class="m-bom-2">
+        <ul>
+          <li><span></span>
+            <div class="m-cht"><img src="images/cod_03.jpg" /></div>
+          </li>
+          <li><span></span>
+            <div class="m-lit"><i>联系电话：0791-88688488</i>
+              <ul>
+                <li><a href="#">实物投资</a> &nbsp; |</li>
+                <li><a href="#">佩戴首饰</a> &nbsp; |</li>
+                <li><a href="#">邮品藏币</a> &nbsp; |</li>
+                <li><a href="#">工艺藏品</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--固定菜单栏-->
+<div class="m-top-2">
+  <div class="m-top-0">
+    <ul>
+      <li><a href="#">首页</a></li>
+      <li><a href="#">公司简介</a></li>
+      <li><a href="#">产品展示</a></li>
+      <li><a href="#">联系方式</a></li>
+      <li><a href="#">新闻动态</a>
+        <div class="m-chi"><a href="#">公司新闻</a> <a href="#">行业新闻</a></div>
+      </li>
+      <li><a href="#">合作伙伴</a></li>
+      <li><a href="#">招贤纳士</a></li>
+      <li><a href="#">商城</a>
+        <div class="m-chi"><a href="#">京东商城</a> <a href="#">微信商城</a></div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--所有页面都会用到的js--> 
+<script type="text/javascript">
+   $(function(){
+	   //点击展开弹出框效果
+	  var $top = $(".m-top-2");
+	  $top.on("click",function(){
+	   $(this).toggleClass("s-cor");
+	   $(this).children(".m-top-0").toggleClass("f-tra");	
+	   $(this).children(".m-top-0").children("ul").toggle(500);
+	  });
+	  
+	   //点击地图图标弹出联系电话和导航栏
+	  var $bom = $(".m-bom-2 ul li").eq(1);
+	  $bom.on("click",function(){
+		 $(this).toggleClass("z-bom");
+		 $(this).children(".m-lit").slideToggle();  
+	  })
+   })
+</script>
+</body>
+</html>

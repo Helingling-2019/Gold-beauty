@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document  Basic CSS */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ margin:0; padding:0;}
+body,button,input,select,textarea{font-size:12px;font-family:arial,"microsoft YaHei",\5b8b\4f53;color:#333;}
+body{ min-width:1200px; margin:0 auto; position:relative; background-color:#000;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0 none;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style-type:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+i{font-style:normal;}
+q:before,q:after{content:''}
+abbr,acronym{border:0;}
+*::selection{ background-color:#e10012; color:#fff;}
+
+/*链接*/
+a{color:#333; text-decoration:none; outline:none;}
+a:hover{ color:#006bd3;}
+/*a:visited{ color:red;}*/
+/*定位*/
+.oh{overflow:hidden;}
+.oa{overflow:auto;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.bc{margin-left:auto;margin-right:auto;}
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+*html .clearfix{height:1%;}
+.clearfix{display:block;}
+.vm{vertical-align:middle;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.zoom{zoom:1;}
+.hidden{visibility:hidden;}
+.none{display:none;}
+.ti2{text-indent:2em;}
+input:focus,textarea:focus{outline:0 none;}/*解决google浏览器input的默认边框*//*解决google浏览器textarea的默认边框*/
+*html{background-image:url(about:blank);background-attachment:fixed;}//解决IE6下定位时闪动的BUG
